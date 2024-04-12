@@ -5,19 +5,19 @@ require_relative "lib/affected_tests/version"
 Gem::Specification.new do |spec|
   spec.name = "affected_tests"
   spec.version = AffectedTests::VERSION
-  spec.authors = ["Shia"]
-  spec.email = ["rise.shia@gmail.com"]
+  spec.authors = [""]
+  spec.email = [""]
 
   spec.summary = "Tool-kit for testing based on changed files."
   spec.description = "Tool-kit for testing based on changed files."
-  spec.homepage = "https://github.com/riseshia/affected_tests"
+  spec.homepage = "https://github.com/Bennet-Sunder/impacted-test-finder"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/riseshia/affected_tests"
+  spec.metadata["source_code_uri"] = "https://github.com/Bennet-Sunder/impacted-test-finder"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
